@@ -38,15 +38,15 @@ It will be 2000 MATIC to join this project and could wind up becoming the bigges
         </Prose>
       </div>
 
-      <div className="bg-blue-200 py-8">
-        <Prose>
-          <Faq />
-        </Prose>
-      </div>
-
       <div className="py-8">
         <Prose>
           <Roadmap />
+        </Prose>
+      </div>
+
+      <div className="bg-blue-200 py-8">
+        <Prose>
+          <Faq />
         </Prose>
       </div>
 
