@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { FaHome, FaTwitter, FaDiscord, FaShip } from 'react-icons/fa';
+import { FaHome, FaTwitter, FaDiscord, FaShip, FaInstagram } from 'react-icons/fa';
 
 import Container from './Container';
 import NextLink from './NextLink';
@@ -47,6 +47,18 @@ export default function Footer() {
             >
               <FaTwitter />
             </a>
+            <a
+              href='https://www.instagram.com/'
+              aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on Instagram`}
+              rel="noopener noreferrer"
+              target="_blank"
+              data-tip="Instagram"
+              data-for="footer"
+              className="bg-blue-200 hover:bg-white-700 rounded-full p-2"
+            >
+              <FaInstagram />
+            </a>
+
 
             
           </div>
