@@ -94,7 +94,7 @@ export default function Header() {
                 <FaTwitter />
               </a>
               <a
-              href='https://www.instagram.com/'
+              href='https://www.instagram.com/banksysdog/'
               aria-label={`${process.env.NEXT_PUBLIC_NFT_NAME} on Instagram`}
               rel="noopener noreferrer"
               target="_blank"

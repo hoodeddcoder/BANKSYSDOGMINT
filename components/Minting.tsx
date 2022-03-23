@@ -139,7 +139,7 @@ export default function Minting() {
                   {isPending || isMinting ? (
                     <button
                       type="button"
-                      className="flex justify-center items-center rounded px-4 py-2 bg-red-700 font-bold w-40 cursor-not-allowed"
+                      className="flex justify-center items-center rounded px-4 py-2 bg-green-400 font-bold w-40 cursor-not-allowed"
                       disabled
                     >
                       <svg
@@ -169,7 +169,7 @@ export default function Minting() {
                   ) : (
                     <button
                       type="button"
-                      className={`rounded px-4 py-2 bg-red-600 hover:bg-red-700 font-bold w-40`}
+                      className={`rounded px-4 py-2 bg-green-400 hover:bg-green-300 font-bold w-40`}
                       onClick={claimNFTs}
                     >
                       Buy
