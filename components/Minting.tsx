@@ -22,7 +22,7 @@ export default function Minting() {
 
   async function claimNFTs() {
     if (active && account) {
-      const cost = process.env.NEXT_PUBLIC_WEI_COST;
+      const cost = process.env.NEXT_PUBLIC_DISPLAY_COST;
       const gasLimit = process.env.NEXT_PUBLIC_GAS_LIMIT;
       const totalCostWei = (Number(cost) * mintAmount).toString();
       const totalGasLimit = (Number(gasLimit) * mintAmount).toString();
@@ -37,7 +37,7 @@ export default function Minting() {
           signer
         );
         const transaction = await contract.mint(mintAmount, {
-          value: totalCostWei,
+          value: ethers.utils.parseEther(totalCostWei).toBigInt(),
           gasLimit: totalGasLimit.toString(),
         });
         setIsPending(false);
@@ -65,7 +65,7 @@ export default function Minting() {
   }
 
   function incrementMintAmount() {
-    if (mintAmount < 10200) {
+    if (mintAmount < 10000) {
       setMintAmount(mintAmount + 1);
     }
   }
