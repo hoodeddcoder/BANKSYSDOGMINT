@@ -25,9 +25,9 @@ const Home: NextPage = () => {
             {process.env.NEXT_PUBLIC_NFT_NAME}
           </h1>
           <p className="text-xl">
-          This exciting; one of a kind; game changing passive income NFT drop will be with Polygon living on the Ethereum Blockchain where it is safe from hacks; gas free and easy to airdrop royalties and more to hodlers!
+          This exciting; one of a kind; game changing passive income NFT drop will be with Polygon living on the Ethereum Blockchain where it is safe from hacks; gas free and easy to airdrop royalties and more to holders!
 
-It will be 2000 MATIC to join this project and could wind up becoming the biggest NFT story of this decade!
+ It will be 2000 MATIC to join this project and could wind up becoming the biggest NFT story of this decade!
           </p>
         </Prose>
       </div>
