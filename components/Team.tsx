@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Creator from '../public/assets/creator.png';
+import Creator from '../public/assets/creator.gif';
 
 export default function Team() {
   return (
