@@ -9,9 +9,9 @@ export default function Roadmap() {
 All royalties paid from that will be sent to holders.
         </li>
         <li>
-        Holders will also receive equal profits from 20.4% of a company called NFT your property and another company called The Business Catalog.
+        Holders will also receive equal profits from 39% of a company called NFT your property and another company called The Business Catalog.
 
-20.4% of profits from each business will be sent to holders quarterly.
+39% of profits from each business will be sent to holders quarterly.
         </li>
         <li>
         You will own equal shares of 10 original Banksy artworks worth over 1.5M(USD) that you will get paid in royalties for lending to galleries or paid equally if they are sold. We will also buy land in the Metaverse to create a BAnksys/Banksys Dog art gallery.
